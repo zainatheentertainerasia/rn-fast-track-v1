@@ -1,0 +1,17 @@
+{
+  "error":null,
+  "params":{
+    "+url": "https://chalhb.test-app.link/H8ZSCE8wkZ",
+    "$marketing_title": "F&D_Deep_link",
+    "~creation_source": 1,
+    "~marketing": true,
+    "deeplink": "chalhoubentertainer://Ruleofuse",
+    "~id": "692655726359170325",
+    "$one_time_use": false,
+    "$android_url": "www.test.com",
+    "$ios_url": "www.test.com",
+    "~feature": "marketing",
+    "url": "https://chalhb.test-app.link/H8ZSCE8wkZ"
+  },
+  "url": "chalhoubentertainer://open?link_click_id=4747474747" 
+} 

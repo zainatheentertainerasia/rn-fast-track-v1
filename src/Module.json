@@ -1,0 +1,20 @@
+{
+    "consume": [
+    ],
+    "expose": {
+       
+    },
+    "mainRoute": "",
+	"currentModuleForMainRoute": "ft_rn_auth_module",
+	"currentScreenForMainRoute": "Auth",
+	"moduleRoutes": {
+		"ft_rn_auth_module": "Auth",
+		"ft_rn_fav_module": "Favourite",
+		"ft_rn_home_module": "Home",
+		"ft_rn_merchant_module": "Merchant",
+		"ft_rn_notification": "Notification",
+		"ft_rn_outlet_module": "Outlet",
+		"ft_rn_search_module": "Search",
+		"ft_rn_profile_module": "User"
+	}
+}

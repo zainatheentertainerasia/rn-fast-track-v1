@@ -1,0 +1,50 @@
+{
+    "ft_rn_notification": {
+        "id": "5efd9295dc027a384c933260",
+        "name": "ft_rn_notification",
+        "description": "",
+        "version": "0.0.3"
+    },
+    "ft_rn_search_module": {
+        "id": "5efd99aadc027a384c933261",
+        "name": "ft_rn_search_module",
+        "description": "",
+        "version": "0.0.3"
+    },
+    "ft_rn_outlet_module": {
+        "id": "5efd8f34dc027a384c93325d",
+        "name": "ft_rn_outlet_module",
+        "description": "",
+        "version": "0.0.3"
+    },
+    "ft_rn_home_module": {
+        "id": "5efd89cbdc027a384c933259",
+        "name": "ft_rn_home_module",
+        "description": "",
+        "version": "0.0.3"
+    },
+    "ft_rn_auth_module": {
+        "id": "5efdd21cdc027a384c933276",
+        "name": "ft_rn_auth_module",
+        "description": "",
+        "version": "0.0.3"
+    },
+    "ft_rn_merchant_module": {
+        "id": "5efe31acdc027a384c9332ba",
+        "name": "ft_rn_merchant_module",
+        "description": "",
+        "version": "0.0.3"
+    },
+    "ft_rn_fav_module": {
+        "id": "5efe423bb12af1109acb94e3",
+        "name": "ft_rn_fav_module",
+        "description": "",
+        "version": "0.0.3"
+    },
+    "ft_rn_user_profile_module": {
+        "id": "5f0305a7292c2139f26c56c6",
+        "name": "ft_rn_user_profile_module",
+        "description": "",
+        "version": "0.0.3"
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "rn-horizon-analytics": {
+      "signature": "5b1c211443191e475f165d80e4509e15",
+      "file": true,
+      "replaced": "^0.0.2"
+    }
+  }
+}

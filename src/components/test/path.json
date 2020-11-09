@@ -1,0 +1,10 @@
+{
+	"main": "./test/test",
+	"paths": [
+		{
+			"name": "test",
+			"path": "./test/test",
+			"image": "./test/test.png"
+		}
+	]
+}

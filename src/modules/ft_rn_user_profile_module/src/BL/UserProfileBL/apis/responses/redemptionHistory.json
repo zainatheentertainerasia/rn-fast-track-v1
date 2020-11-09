@@ -1,0 +1,247 @@
+{  
+    "success":true,
+    "message":"success",
+    "data":{  
+       "current_year":2019,
+       "total_redemptions":16,
+       "month_wise_redemmptions":[  
+          {  
+             "index":10,
+             "month":"2019 November",
+             "redemption_count":3,
+             "redemptions":[  
+                {  
+                   "id":"67301036",
+                   "date":"20/11/2019 - 14:55",
+                   "code":"A-067-301-036",
+                   "offer":"Test Offer",
+                   "outlet":"Practise Using Our App",
+                   "merchant":"App Tutorial",
+                   "category":"Restaurants and Bars",
+                   "outlet_id":5930,
+                   "merchant_id":3284,
+                   "savings":5.0,
+                   "logo_url":"https://offerengine.theentertainerme.com/app-tutorial-x375136/merchant_primary_logo_%28retina%29_-_merchant.png"
+                },
+                {  
+                   "id":"67301030",
+                   "date":"20/11/2019 - 14:55",
+                   "code":"A-067-301-030",
+                   "offer":"Test Offer",
+                   "outlet":"Practise Using Our App",
+                   "merchant":"App Tutorial",
+                   "category":"Restaurants and Bars",
+                   "outlet_id":5930,
+                   "merchant_id":3284,
+                   "savings":5.0,
+                   "logo_url":"https://offerengine.theentertainerme.com/app-tutorial-x375136/merchant_primary_logo_%28retina%29_-_merchant.png"
+                },
+                {  
+                   "id":"66866392",
+                   "date":"13/11/2019 - 06:39",
+                   "code":"A-066-866-392",
+                   "offer":"Test Offer",
+                   "outlet":"Practise Using The App",
+                   "merchant":"App Tutorial",
+                   "category":"Restaurants and Bars",
+                   "outlet_id":4001,
+                   "merchant_id":4378,
+                   "savings":1.0,
+                   "logo_url":"https://offerengine.theentertainerme.com/app-tutorial-x21256156/merchant_primary_logo_%28retina%29_-_merchant.png"
+                }
+             ]
+          },
+          {  
+             "index":7,
+             "month":"2019 August",
+             "redemption_count":2,
+             "redemptions":[  
+                {  
+                   "id":"62585452",
+                   "date":"23/08/2019 - 11:31",
+                   "code":"A-062-585-452",
+                   "offer":"Test Offer",
+                   "outlet":"Practise Using The App",
+                   "merchant":"App Tutorial",
+                   "category":"Restaurants and Bars",
+                   "outlet_id":4001,
+                   "merchant_id":4378,
+                   "savings":1.0,
+                   "logo_url":"https://offerengine.theentertainerme.com/on-ice-x068175/merchant_primary_logo_%28retina%29_-_merchant.png"
+                },
+                {  
+                   "id":"61908019",
+                   "date":"06/08/2019 - 10:40",
+                   "code":"A-061-908-019",
+                   "offer":"Test Offer",
+                   "outlet":"Practise Using The App",
+                   "merchant":"App Tutorial",
+                   "category":"Restaurants and Bars",
+                   "outlet_id":4001,
+                   "merchant_id":4378,
+                   "savings":1.0,
+                   "logo_url":""
+                }
+             ]
+          },
+          {  
+             "index":3,
+             "month":"2019 April",
+             "redemption_count":5,
+             "redemptions":[  
+                {  
+                   "id":"55916352",
+                   "date":"11/04/2019 - 06:22",
+                   "code":"A-055-916-352",
+                   "offer":"Test Offer",
+                   "outlet":"Practise Using The App",
+                   "merchant":"App Tutorial",
+                   "category":"Restaurants and Bars",
+                   "outlet_id":4001,
+                   "merchant_id":4378,
+                   "savings":1.0,
+                   "logo_url":"https://offerengine.theentertainerme.com/app-tutorial-x21256156/merchant_primary_logo_%28retina%29_-_merchant.png"
+                },
+                {  
+                   "id":"55916336",
+                   "date":"11/04/2019 - 06:21",
+                   "code":"A-055-916-336",
+                   "offer":"Test Offer",
+                   "outlet":"Practise Using The App",
+                   "merchant":"App Tutorial",
+                   "category":"Restaurants and Bars",
+                   "outlet_id":4001,
+                   "merchant_id":4378,
+                   "savings":1.0,
+                   "logo_url":"https://offerengine.theentertainerme.com/app-tutorial-x21256156/merchant_primary_logo_%28retina%29_-_merchant.png"
+                },
+                {  
+                   "id":"55916331",
+                   "date":"11/04/2019 - 06:21",
+                   "code":"A-055-916-331",
+                   "offer":"Test Offer",
+                   "outlet":"Practise Using The App",
+                   "merchant":"App Tutorial",
+                   "category":"Restaurants and Bars",
+                   "outlet_id":4001,
+                   "merchant_id":4378,
+                   "savings":1.0,
+                   "logo_url":"https://offerengine.theentertainerme.com/app-tutorial-x21256156/merchant_primary_logo_%28retina%29_-_merchant.png"
+                },
+                {  
+                   "id":"55916329",
+                   "date":"11/04/2019 - 06:20",
+                   "code":"A-055-916-329",
+                   "offer":"Test Offer",
+                   "outlet":"Practise Using The App",
+                   "merchant":"App Tutorial",
+                   "category":"Restaurants and Bars",
+                   "outlet_id":4001,
+                   "merchant_id":4378,
+                   "savings":1.0,
+                   "logo_url":"https://offerengine.theentertainerme.com/app-tutorial-x21256156/merchant_primary_logo_%28retina%29_-_merchant.png"
+                },
+                {  
+                   "id":"55916327",
+                   "date":"11/04/2019 - 06:20",
+                   "code":"A-055-916-327",
+                   "offer":"Test Offer",
+                   "outlet":"Practise Using The App",
+                   "merchant":"App Tutorial",
+                   "category":"Restaurants and Bars",
+                   "outlet_id":4001,
+                   "merchant_id":4378,
+                   "savings":1.0,
+                   "logo_url":"https://offerengine.theentertainerme.com/app-tutorial-x21256156/merchant_primary_logo_%28retina%29_-_merchant.png"
+                }
+             ]
+          },
+          {  
+             "index":0,
+             "month":"2019 January",
+             "redemption_count":6,
+             "redemptions":[  
+                {  
+                   "id":"50633552",
+                   "date":"02/01/2019 - 11:32",
+                   "code":"A-050-633-552",
+                   "offer":"PER",
+                   "outlet":"xx Ahmed's Exclusive Picnic Basket - Creek Park",
+                   "merchant":"xx Ahmed's Exclusive Picnic Basket",
+                   "category":"Restaurants and Bars",
+                   "outlet_id":26117,
+                   "merchant_id":16101,
+                   "savings":40.0,
+                   "logo_url":"https://offerengine.theentertainerme.com/xx-ahmeds-exclusive-picnic-basket-x22390332/merchant_primary_logo_%28retina%29_-_merchant.png"
+                },
+                {  
+                   "id":"50633545",
+                   "date":"02/01/2019 - 11:32",
+                   "code":"A-050-633-545",
+                   "offer":"STGT",
+                   "outlet":"xx Ahmed's Exclusive Picnic Basket - Creek Park",
+                   "merchant":"xx Ahmed's Exclusive Picnic Basket",
+                   "category":"Restaurants and Bars",
+                   "outlet_id":26117,
+                   "merchant_id":16101,
+                   "savings":20.0,
+                   "logo_url":"https://offerengine.theentertainerme.com/xx-ahmeds-exclusive-picnic-basket-x22390332/merchant_primary_logo_%28retina%29_-_merchant.png"
+                },
+                {  
+                   "id":"50633540",
+                   "date":"02/01/2019 - 11:32",
+                   "code":"A-050-633-540",
+                   "offer":"BOGOF",
+                   "outlet":"xx Ahmed's Exclusive Picnic Basket - Creek Park",
+                   "merchant":"xx Ahmed's Exclusive Picnic Basket",
+                   "category":"Restaurants and Bars",
+                   "outlet_id":26117,
+                   "merchant_id":16101,
+                   "savings":50.0,
+                   "logo_url":"https://offerengine.theentertainerme.com/xx-ahmeds-exclusive-picnic-basket-x22390332/merchant_primary_logo_%28retina%29_-_merchant.png"
+                },
+                {  
+                   "id":"50633524",
+                   "date":"02/01/2019 - 11:32",
+                   "code":"A-050-633-524",
+                   "offer":"Pilates Class",
+                   "outlet":"Naeem's Pilates Studio - JLT",
+                   "merchant":"Naeem's Pilates Studio",
+                   "category":"Body",
+                   "outlet_id":27056,
+                   "merchant_id":16660,
+                   "savings":100.0,
+                   "logo_url":"https://offerengine.theentertainerme.com/xx-naeems-pilates-studio-x22390290/merchant_primary_logo_%28retina%29_-_merchant.png"
+                },
+                {  
+                   "id":"50633512",
+                   "date":"02/01/2019 - 11:32",
+                   "code":"A-050-633-512",
+                   "offer":"Pilates Class",
+                   "outlet":"Naeem's Pilates Studio - JLT",
+                   "merchant":"Naeem's Pilates Studio",
+                   "category":"Body",
+                   "outlet_id":27056,
+                   "merchant_id":16660,
+                   "savings":100.0,
+                   "logo_url":"https://offerengine.theentertainerme.com/xx-naeems-pilates-studio-x22390290/merchant_primary_logo_%28retina%29_-_merchant.png"
+                },
+                {  
+                   "id":"50633505",
+                   "date":"02/01/2019 - 11:31",
+                   "code":"A-050-633-505",
+                   "offer":"Pilates Class",
+                   "outlet":"Naeem's Pilates Studio - JLT",
+                   "merchant":"Naeem's Pilates Studio",
+                   "category":"Body",
+                   "outlet_id":27056,
+                   "merchant_id":16660,
+                   "savings":100.0,
+                   "logo_url":"https://offerengine.theentertainerme.com/xx-naeems-pilates-studio-x22390290/merchant_primary_logo_%28retina%29_-_merchant.png"
+                }
+             ]
+          }
+       ]
+    },
+    "httpResponse":200
+ }

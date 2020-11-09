@@ -1,0 +1,9 @@
+{
+	"basePath": "https://userqasvr.etenvbiz.com/api_ets/v2/user/",
+	"mode": "real",
+	"enviroments": [
+		"dev",
+		"production",
+		"stage"
+	]
+}

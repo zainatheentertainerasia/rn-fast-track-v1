@@ -1,0 +1,14 @@
+rootProject.name = 'ftrntemplate'
+include ':react-native-config'
+project(':react-native-config').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-config/android')
+
+include ':react-native-appboy-sdk'
+project(':react-native-appboy-sdk').projectDir = new File(settingsDir, '../node_modules/react-native-appboy-sdk/android')
+
+apply from: '../node_modules/react-native-unimodules/gradle.groovy'
+includeUnimodulesProjects()
+
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle");
+applyNativeModulesSettingsGradle(settings)
+
+include ':app'

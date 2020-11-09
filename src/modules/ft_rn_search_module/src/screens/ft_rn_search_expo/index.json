@@ -1,0 +1,11 @@
+{
+  "name": "ft_rn_search_expo",
+  "type": "expo",
+  "image": "./screen/image.png",
+  "version": "0.0.3",
+  "contract": "ft_rn_search_expo_contract",
+  "dependencies": {
+    "rn_fast_track_uilib": "1.0.0"
+  },
+  "dependentComponents": []
+}

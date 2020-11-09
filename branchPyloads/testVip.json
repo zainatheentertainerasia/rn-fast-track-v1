@@ -1,0 +1,18 @@
+{
+  "error":null,
+  "params":{
+    "+url": "https://chalhb.test-app.link/qQKaubCCLY?vip_key=test",
+        "$marketing_title": "vip_key_test",
+        "~creation_source": 1,
+        "~marketing": true,
+        "deeplink": "chalhoubentertainer://ninedigitkey",
+        "~id": "685033108047189484",
+        "$one_time_use": false,
+        "$android_url": "www.test.com",
+        "$ios_url": "www.test.com",
+        "vip_key": "test",
+        "~feature": "marketing",
+        "url": "https://chalhb.test-app.link/qQKaubCCLY?vip_key=test"
+  },
+  "url": "chalhoubentertainer://open?link_click_id=4747474747" 
+} 

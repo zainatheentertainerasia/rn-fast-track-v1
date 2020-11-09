@@ -1,0 +1,5 @@
+{
+  "basePath": "https://merchantqasvr.etenvbiz.com/api_ets/v2/merchants/",
+  "mode": "test",
+  "enviroments": ["dev", "production", "stage"]
+}

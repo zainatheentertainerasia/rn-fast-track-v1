@@ -1,0 +1,35 @@
+{
+	"code": 200,
+	"apiEnv": "development",
+	"products": {
+		"Accessories": [
+			{
+				"id": 0,
+				"title": "High Quality AC Non-Contact Electric Voltage Detector Test Pen ",
+				"price": "1,259",
+				"thumbnailPhoto": "https://img.buyon.pk/cache/data/members/naumans101/high-quality-ac-non-contact-electric-voltage-detector-tester-test-pen-50-1000v-314x222.jpg"
+			},
+			{
+				"id": 1,
+				"title": "Aluminum Alloy Laptop Portable Foldable Adjustable Laptop Desk ",
+				"price": "3,259",
+				"thumbnailPhoto": "https://img.buyon.pk/cache/data/members/burhaniemart/1367456038-424374959-314x222.jpg"
+			},
+			{
+				"id": 2,
+				"title": "Mini USB Vacuum Cleaner For Computers and Laptops",
+				"price": "3,259",
+				"thumbnailPhoto": "https://img.buyon.pk/cache/data/members/asifkhan/usb-9-314x222.jpg"
+			}
+		],
+		"Home & Living": [
+			{
+				"id": 0,
+				"title": "Red Tree Canvas Digital Wall Frames-medium Size",
+				"price": "1,259",
+				"thumbnailPhoto": "https://img.buyon.pk/cache/data/members/saleem123/7d47ef6144757360af45a44ae177ef9b-314x222.jpg"
+			}
+		]
+	},
+	"apiConfigFileArr": []
+}

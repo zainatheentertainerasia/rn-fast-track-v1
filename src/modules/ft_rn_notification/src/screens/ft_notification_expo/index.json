@@ -1,0 +1,11 @@
+{
+  "name": "ft_notification_expo",
+  "type": "expo",
+  "image": "./screen/image.png",
+  "version": "0.0.3",
+  "contract": "ft_notification_expo_contract",
+  "dependencies": {
+    "rn_fast_track_uilib": "0.0.8"
+  },
+  "dependentComponents": []
+}

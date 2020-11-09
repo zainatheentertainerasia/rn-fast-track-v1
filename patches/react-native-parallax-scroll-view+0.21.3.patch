@@ -1,0 +1,28 @@
+diff --git a/node_modules/react-native-parallax-scroll-view/src/index.js b/node_modules/react-native-parallax-scroll-view/src/index.js
+index 8787b6f..71e4316 100644
+--- a/node_modules/react-native-parallax-scroll-view/src/index.js
++++ b/node_modules/react-native-parallax-scroll-view/src/index.js
+@@ -141,7 +141,8 @@ class ParallaxScrollView extends Component {
+ 						onScroll: Animated.event(
+ 							[{ nativeEvent: { contentOffset: { y: this.scrollY } } }],
+ 							{ useNativeDriver: true, listener: this._onScroll.bind(this) }
+-						)
++						),
++						showsVerticalScrollIndicator:false
+ 						// onScroll: this._onScroll.bind(this)
+ 					},
+ 					foreground,
+diff --git a/node_modules/react-native-parallax-scroll-view/src/styles.js b/node_modules/react-native-parallax-scroll-view/src/styles.js
+index 4562277..710ddec 100644
+--- a/node_modules/react-native-parallax-scroll-view/src/styles.js
++++ b/node_modules/react-native-parallax-scroll-view/src/styles.js
+@@ -3,7 +3,8 @@ const StyleSheet = require('react-native').StyleSheet;
+ const styles = StyleSheet.create({
+   container: {
+     flex: 1,
+-    backgroundColor: 'transparent'
++    backgroundColor: 'transparent',
++    overflow: 'hidden'
+   },
+   parallaxHeaderContainer: {
+     backgroundColor: 'transparent',
