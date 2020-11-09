@@ -8,19 +8,18 @@
   "mode":"real",
   "is_captcha_verification" : true,
   "is_signup_with_demographic": true,
-  "activeAuthTab": "Register", // Login || Register
+  "activeAuthTab": "Register",
   "loginMessage": [
     {
-      text: "Welcome to ENTERTAINER X Circles.Life app. If you have an existing ENTERTAINER account, please use the email and password you have previously registered.",
-      options: {
-        color: '#000000'
-      },
-
+      "text": "Welcome to ENTERTAINER X Circles.Life app. If you have an existing ENTERTAINER account, please use the email and password you have previously registered.",
+      "options": {
+        "color": "#000000"
+      }
     },
     {
-      text: "If you are a first time user, simply tap the Register tab to create an account.",
-      options: {
-        color: 'red'
+      "text": "If you are a first time user, simply tap the Register tab to create an account.",
+      "options": {
+        "color": "red"
       }
     }
   ],
