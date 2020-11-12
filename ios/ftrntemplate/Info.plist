@@ -10,7 +10,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Chalhoub</string>
+	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -74,7 +74,7 @@
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Allow $(APP_NAME) to access your microphone</string>
 	<key>NSMotionUsageDescription</key>
-	<string>Allow $(APP_NAME) to access your device&apos;s accelerometer</string>
+	<string>Allow $(APP_NAME) to access your device's accelerometer</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Give $(APP_NAME) permission to save photos</string>
 	<key>NSPhotoLibraryUsageDescription</key>
