@@ -1,0 +1,37 @@
+
+name: CI
+
+on:
+  push:
+    branches:
+      - 5face5349829d87ea12f5b0d
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [10.x]
+    steps:
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - uses: actions/checkout@v1
+      - name: Install dependencies
+        run: |
+          yarn install
+      - uses: vgaidarji/android-github-actions-build@v1.0.1
+        with:
+            node-version: ${{ matrix.node-version }}
+      - name: Run Gradle command
+        id:   build
+        run: |
+            cd ./android && echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p &&
+            ./gradlew assemble --stacktrace
+      - name: Run Webhook Success
+        if:   steps.build.outcome == 'success'
+        run: |
+            curl -F "file=@./android/app/build/outputs/apk/release/app-release.apk" -X POST  https://0fd96c1b7ba6.ngrok.io/mobilebuild/webhook/callback/5faceb9a9829d87ea12f5bd1
+      - name: Run Webhook Error
+        if:   steps.build.outcome != 'success'
+        run: |
+          curl -X POST  https://0fd96c1b7ba6.ngrok.io/mobilebuild/webhook/callback/5faceb9a9829d87ea12f5bd1/error
