@@ -1,0 +1,27 @@
+{
+  "name": "rn-horizon-analytics",
+  "version": "0.0.1-5b1c2114",
+  "description": "A react native implementation of horizon analytics",
+  "main": "",
+  "keywords": [
+    "Horizon",
+    "React Native",
+    "Analytics"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iqbal-muhammad/rn-horizon-analytics.git"
+  },
+  "author": "Muhammad Iqbal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iqbal-muhammad/rn-horizon-analytics/issues"
+  },
+  "homepage": "https://github.com/iqbal-muhammad/rn-horizon-analytics",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "axios": "*",
+    "expo-device": "*"
+  }
+}

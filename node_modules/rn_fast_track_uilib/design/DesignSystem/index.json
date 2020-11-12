@@ -1,0 +1,169 @@
+{
+	"sections": [
+		{
+			"type": "theme",
+			"properties": [
+				{
+					"key": "--global--primary--BackgroundColor",
+					"alias": "Primary Background",
+					"defaultValue": "#FFFFFF",
+					"type": "color",
+					"constraint": "none",
+					"options": [],
+					"range": []
+				},
+				{
+					"key": "--global--secondary--BackgroundColor",
+					"alias": "Secondary Background",
+					"defaultValue": "#1431FA",
+					"type": "color",
+					"constraint": "none",
+					"options": [],
+					"range": []
+				},
+				{
+					"key": "--global--tertiary--BackgroundColor",
+					"alias": "Secondary Background",
+					"defaultValue": "#FFFFFF",
+					"type": "color",
+					"constraint": "none",
+					"options": [],
+					"range": []
+				}
+			]
+		},
+		{
+			"type": "typo",
+			"properties": [
+				{
+					"key": "--text--color",
+					"alias": "Text Color",
+					"defaultValue": "#e0a0e0",
+					"description": "belongs to body content.",
+					"type": "color",
+					"constraint": "none",
+					"options": [],
+					"range": []
+				},
+				{
+					"key": "--link--color",
+					"alias": "Link Color",
+					"defaultValue": "#00a0e0",
+					"description": "belongs to link in body content.",
+					"type": "color",
+					"constraint": "none",
+					"options": [],
+					"range": []
+				},
+				{
+					"key": "--title--color:",
+					"alias": "Title Color",
+					"defaultValue": "#e0a",
+					"description": "belongs to headings.",
+					"type": "color",
+					"constraint": "none",
+					"options": [],
+					"range": []
+				}
+			]
+		},
+		{
+			"type": "general",
+			"properties": [
+				{
+					"key": "--global--button-BorderRadius",
+					"alias": "Button Radius Style",
+					"defaultValue": "4",
+					"type": "buttonRadius",
+					"constraint": "options",
+					"options": [
+						"0",
+						"4",
+						"8",
+						"12",
+						"100"
+					],
+					"range": []
+				},
+				{
+					"key": "--button--BackgroundColor",
+					"alias": "Button Background",
+					"defaultValue": "#eee",
+					"type": "buttonBackground",
+					"constraint": "none",
+					"options": [],
+					"range": []
+				},
+				{
+					"key": "--button--TextColor",
+					"alias": "Button Text Color",
+					"defaultValue": "#208EB3",
+					"type": "buttonTextColor",
+					"constraint": "none",
+					"options": [],
+					"range": []
+				},
+				{
+					"key": "--button--BorderColor",
+					"alias": "Button Border Color",
+					"defaultValue": "#208EB3",
+					"type": "buttonBorderColor",
+					"constraint": "none",
+					"options": [],
+					"range": []
+				},
+				{
+					"key": "--global--input-BorderRadius",
+					"alias": "Input Radius Style",
+					"defaultValue": "4",
+					"type": "inputRadius",
+					"constraint": "options",
+					"options": [
+						"0",
+						"4",
+						"8",
+						"12",
+						"100"
+					],
+					"range": []
+				},
+				{
+					"key": "--input--BackgroundColor",
+					"alias": "Input Background Color",
+					"defaultValue": "#FFFFFF",
+					"type": "inputBackground",
+					"constraint": "none",
+					"options": [],
+					"range": []
+				},
+				{
+					"key": "--input--PlaceholderColor",
+					"alias": "Input Placeholder Color",
+					"defaultValue": "#eee",
+					"type": "inputPlaceholderColor",
+					"constraint": "none",
+					"options": [],
+					"range": []
+				},
+				{
+					"key": "--input--TextColor",
+					"alias": "Input Text Color",
+					"defaultValue": "#000000",
+					"type": "inputTextColor",
+					"constraint": "none",
+					"options": [],
+					"range": []
+				},
+				{
+					"key": "--input--BorderColor",
+					"alias": "Input Border Color",
+					"defaultValue": "#000000",
+					"type": "inputBorderColor",
+					"constraint": "none",
+					"options": [],
+					"range": []
+				}
+			]
+		}
+	]
+}

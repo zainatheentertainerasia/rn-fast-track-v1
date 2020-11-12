@@ -1,0 +1,32 @@
+{
+  "name": "react-native-appboy-sdk",
+  "version": "1.24.0",
+  "summary": "Braze SDK for React Native.",
+  "description": "Braze SDK for React Native.",
+  "license": "LICENSE.md",
+  "authors": "Appboy",
+  "homepage": "https://github.com/Appboy/appboy-react-sdk#readme",
+  "source": {
+    "git": "git+https://github.com/Appboy/appboy-react-sdk.git",
+    "tag": "1.24.0"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "preserve_paths": [
+    "LICENSE.md",
+    "README.md",
+    "package.json",
+    "index.js"
+  ],
+  "source_files": "iOS/**/*.{h,m}",
+  "dependencies": {
+    "Appboy-iOS-SDK": [
+      "~> 3.28.0"
+    ],
+    "React": [
+
+    ]
+  }
+}
