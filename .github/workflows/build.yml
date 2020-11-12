@@ -5,50 +5,33 @@ on:
   push:
     branches:
       - 5face5349829d87ea12f5b0d
-
 jobs:
-  build-ios:
-      runs-on: macOS-10.15
-      steps:
-          - uses: actions/checkout@v1
-          - name: Switch XCode Version
-            run: sudo xcode-select -s /Applications/Xcode_11.7.app
-          - uses: actions/setup-node@v1
-            with:
-              node-version: ${{ matrix.node-version }}
-          - uses: actions/checkout@v1
-          - name: Setup provisioning profile
-            run: ./.github/secrets/decrypt_secrets.sh
-            env:
-              IOS_PROFILE_KEY: ${{ secrets.IOS_PROFILE_KEY }}
-          - name: Install dependencies
-            run: yarn install
-          - name: Install Cocoapods 
-            run: gem install cocoapods
-    
-          - name: Install pod dependencies
-            run: |
-              cd ios
-              pod install
-            shell: bash
-          - name: Build app
-            id: build
-            run: | 
-              cd ios && xcodebuild -workspace ftrntemplate.xcworkspace               -scheme ftrntemplate -sdk iphoneos -configuration AppStoreDistribution archive -archivePath $PWD/build/ftrntemplate.xcarchive
-            continue-on-error: true
-            env:
-              IOS_PROFILE_KEY: ${{ secrets.IOS_PROFILE_KEY }}
-          - name: Export app 
-            if:  steps.build.outcome == 'success' 
-            run: |
-              cd ios && xcodebuild -exportArchive -archivePath $PWD/build/ftrntemplate.xcarchive               -exportOptionsPlist ftrntemplate/Info.plist -exportPath $PWD/build
-          - name: Run Webhook Success
-            if:  steps.build.outcome == 'success'
-            run: |
-              curl -F "file=@./ios/build/ftrntemplate.ipa" -X POST  https://9a002b5e9b8c.ngrok.io/mobilebuild/webhook/callback/5fad0e083af5aa2693f0cdbe
-          - name: Run Webhook Error
-            if:  steps.build.outcome != 'success' 
-            run: |
-              curl -X POST  https://9a002b5e9b8c.ngrok.io/mobilebuild/webhook/callback/5fad0e083af5aa2693f0cdbe/error
-    
-              
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [10.x]
+    steps:
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - uses: actions/checkout@v1
+      - name: Install dependencies
+        run: |
+          yarn install
+      - uses: vgaidarji/android-github-actions-build@v1.0.1
+        with:
+            node-version: ${{ matrix.node-version }}
+      - name: Run Gradle command
+        id:   build
+        run: |
+            cd ./android && echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p &&
+            ./gradlew assemble --stacktrace
+      - name: Run Webhook Success
+        if:   steps.build.outcome == 'success'
+        run: |
+            curl -F "file=@./android/app/build/outputs/apk/release/app-release.apk" -X POST  https://9a002b5e9b8c.ngrok.io/mobilebuild/webhook/callback/5fad23fd2fdf1e95105f3b84
+      - name: Run Webhook Error
+        if:   steps.build.outcome != 'success'
+        run: |
+          curl -X POST  https://9a002b5e9b8c.ngrok.io/mobilebuild/webhook/callback/5fad23fd2fdf1e95105f3b84/error
