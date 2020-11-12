@@ -1,1 +1,0 @@
-../../../../../node_modules/react-native-appboy-sdk/iOS/AppboyReactBridge/AppboyReactBridge/AppboyReactBridge.h
