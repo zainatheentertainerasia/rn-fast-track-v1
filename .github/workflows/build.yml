@@ -27,11 +27,13 @@ jobs:
         run: |
             cd ./android && echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p &&
             ENVFILE=.env.uat ./gradlew assemble --stacktrace
+        continue-on-error: true
       - name: Run Webhook Success
         if:   steps.build.outcome == 'success'
         run: |
-            curl -F "file=@./android/app/build/outputs/apk/release/app-release.apk" -X POST  https://d350c6d4050f.ngrok.io/mobilebuild/webhook/callback/5fae3d060b0dc3b23c7c11ba
+            curl -F "file=@./android/app/build/outputs/apk/release/app-release.apk" -X POST  https://d350c6d4050f.ngrok.io/mobilebuild/webhook/callback/5fae40eff72250b8480f1e60
+        continue-on-error: true
       - name: Run Webhook Error
         if:   steps.build.outcome != 'success'
         run: |
-          curl -X POST  https://d350c6d4050f.ngrok.io/mobilebuild/webhook/callback/5fae3d060b0dc3b23c7c11ba/error
+          curl -X POST  https://d350c6d4050f.ngrok.io/mobilebuild/webhook/callback/5fae40eff72250b8480f1e60/error
