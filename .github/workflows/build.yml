@@ -28,6 +28,10 @@ jobs:
             cd ./android && echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p &&
             ENVFILE=.env.uat ./gradlew assemble --stacktrace
         continue-on-error: true
+      - uses: actions/upload-artifact@v2
+        with:
+          name: app-release
+          path: ./android/app/build/outputs/apk/release/app-release.apk
       - name: Run Webhook Success
         if:   steps.build.outcome == 'success'
         run: |
