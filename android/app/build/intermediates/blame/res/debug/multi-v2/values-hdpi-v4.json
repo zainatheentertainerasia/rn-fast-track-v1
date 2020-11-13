@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/enm50/work/te-bucket/projects/5face5349829d87ea12f5b0d/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/enm50/.gradle/caches/transforms-1/files-1.1/jetified-android-sdk-ui-10.1.0.aar/3727daaac8bbd8e6d154586a7837dc93/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,128,199,271,341,414,495,574,654,732",
+                        "endColumns": "72,70,71,69,72,80,78,79,77,80",
+                        "endOffsets": "123,194,266,336,409,490,569,649,727,808"
+                    }
+                },
+                {
+                    "source": "/Users/enm50/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/ac87acd1289d89218ba04211006d4385/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "813",
+                        "endLines": "16",
+                        "endColumns": "13",
+                        "endOffsets": "1085"
+                    }
+                }
+            ]
+        }
+    ]
+}

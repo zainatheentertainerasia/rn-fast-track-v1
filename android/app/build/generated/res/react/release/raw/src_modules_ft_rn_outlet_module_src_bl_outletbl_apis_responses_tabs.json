@@ -1,0 +1,16 @@
+{
+  "data": {
+    "limit": 60,
+    "tabs": [
+      {
+        "order": 1,
+        "section_type": 1,
+        "uid": "all_offers",
+        "name": "All OFFERS",
+        "params": {
+          "redeemability": "redeemable_reusable"
+        }
+      }
+    ]
+  }
+}
