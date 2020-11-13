@@ -1,17 +1,1 @@
-{
-    "--global--primary--BackgroundColor":"#FFFFFF",
-    "--global--secondary--BackgroundColor":"#FFFFFF",
-    "--global--tertiary--BackgroundColor":"#ebeced",
-    "--text--color":"black",//
-    "--link--color":"",
-    "--title--color:":"",
-    "--global--button-BorderRadius":0,//
-    "--button--BackgroundColor":"rgb(79,153,210)",//
-    "--button--BorderColor":"blue",//
-    "--button--TextColor":"#FFFFFF",//
-    "--global--input-BorderRadius":"",//
-    "--input--BackgroundColor":"#FFFFFF",//
-    "--input--PlaceholderColor":"",
-    "--input--TextColor":"black",//
-    "--input--BorderColor":"transparent"//
-}
+{"--global--primary--BackgroundColor":"#ef0b0b","--global--secondary--BackgroundColor":"#000000","--global--tertiary--BackgroundColor":"#000000","--text--color":"#b210b2","--link--color":"#7971ac","--title--color:":"#b8168a","--global--button-BorderRadius":12,"--button--BackgroundColor":"#272f33","--button--TextColor":"#3f0000","--button--BorderColor":"#151a1e","--global--input-BorderRadius":8,"--input--BackgroundColor":"#ffffff","--input--PlaceholderColor":"#db1515","--input--TextColor":"#4e1818","--input--BorderColor":"#f30000"}
