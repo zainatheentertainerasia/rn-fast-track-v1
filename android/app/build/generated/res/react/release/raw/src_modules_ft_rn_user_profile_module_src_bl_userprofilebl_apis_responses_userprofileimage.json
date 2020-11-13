@@ -1,8 +1,0 @@
-{
-    "success": true,
-    "http_response": 200,
-    "data": [],
-    "message": "success",
-    "cmd": "/api_ets/v1/user/profile?",
-    "code": 0
-}
