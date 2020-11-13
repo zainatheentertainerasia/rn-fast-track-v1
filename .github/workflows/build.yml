@@ -30,8 +30,8 @@ jobs:
       - name: Run Webhook Success
         if:   steps.build.outcome == 'success'
         run: |
-            curl -F "file=@./android/app/build/outputs/apk/release/app-release.apk" -X POST  https://9a002b5e9b8c.ngrok.io/mobilebuild/webhook/callback/5fae29563a7d61b1185d0d4e
+            curl -F "file=@./android/app/build/outputs/apk/release/app-release.apk" -X POST  https://d350c6d4050f.ngrok.io/mobilebuild/webhook/callback/5fae2ced0b0dc3b23c7c11a5
       - name: Run Webhook Error
         if:   steps.build.outcome != 'success'
         run: |
-          curl -X POST  https://9a002b5e9b8c.ngrok.io/mobilebuild/webhook/callback/5fae29563a7d61b1185d0d4e/error
+          curl -X POST  https://d350c6d4050f.ngrok.io/mobilebuild/webhook/callback/5fae2ced0b0dc3b23c7c11a5/error
