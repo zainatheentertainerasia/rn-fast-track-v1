@@ -53,7 +53,7 @@
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
     "react-i18next": "^8.3.8",
-    "react-native": "~0.61.4",
+    "react-native": "^0.61.4",
     "react-native-actionsheet": "^2.4.2",
     "react-native-appboy-sdk": "^1.24.0",
     "react-native-branch": "^5.0.0",
