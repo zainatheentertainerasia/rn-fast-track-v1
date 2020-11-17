@@ -34,7 +34,7 @@ jobs:
           - name: Build app
             id: build
             run: | 
-              cd ios && xcodebuild -workspace ftrntemplate.xcworkspace               -scheme ftrntemplate -sdk iphoneos -configuration AppStoreDistribution archive -archivePath $PWD/build/ftrntemplate.xcarchive
+              cd ios && xcodebuild -workspace ftrntemplate.xcworkspace -scheme ftrntemplate -sdk iphoneos -configuration AppStoreDistribution archive -archivePath $PWD/build/ftrntemplate.xcarchive
             continue-on-error: true
             env:
               IOS_PROFILE_KEY: ${{ secrets.IOS_PROFILE_KEY }}

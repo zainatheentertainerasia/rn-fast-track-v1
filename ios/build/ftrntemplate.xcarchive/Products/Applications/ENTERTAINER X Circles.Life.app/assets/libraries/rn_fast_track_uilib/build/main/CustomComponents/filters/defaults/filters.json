@@ -1,0 +1,1089 @@
+{
+    "filter":  [
+        {
+            "category_name": "Body",
+            "category_id": 1,
+            "filter_sections": [
+                {
+                    "section_name": "Type",
+                    "selection_type": 1,
+                    "has_icons": false,
+                    "collapsible": false,
+                    "options": [
+                        {
+                            "name": "All",
+                            "key": "All",
+                            "uid": "0_Body_All"
+                        },
+                        {
+                            "name": "Beauty, Hair & Nails",
+                            "key": "Beauty, Hair & Nails",
+                            "uid": "Body_Beauty, Hair & Nails"
+                        },
+                        {
+                            "name": "Health & Fitness",
+                            "key": "Health & Fitness",
+                            "uid": "Body_Health & Fitness"
+                        },
+                        {
+                            "name": "Men's Grooming",
+                            "key": "Men's Grooming",
+                            "uid": "Body_Men's Grooming"
+                        },
+                        {
+                            "name": "Spas",
+                            "key": "Spas",
+                            "uid": "Body_Spas"
+                        },
+                        {
+                            "name": "Medical & Dental ",
+                            "key": "Medical & Dental",
+                            "uid": "Body_Medical & Dental"
+                        }
+                    ],
+                    "section_order_id": 1,
+                    "category_id": 1
+                },
+                {
+                    "section_name": "Amenities Offered",
+                    "selection_type": 3,
+                    "has_icons": false,
+                    "collapsible": false,
+                    "options": [
+                        {
+                            "name": "By Appointment Only",
+                            "key": "by_appointment_only",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/by_appointment_only.png",
+                            "uid": "Body_by_appointment_only"
+                        },
+                        {
+                            "name": "Couple Friendly",
+                            "key": "couples_friendly",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/couples_friendly.png",
+                            "uid": "Body_couples_friendly"
+                        },
+                        {
+                            "name": "Indoor Facilities",
+                            "key": "indoor_facilities",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/indoor_facilities.png",
+                            "uid": "Body_indoor_facilities"
+                        },
+                        {
+                            "name": "Outdoor Facilities",
+                            "key": "outdoor_facilities",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/outdoor_facilities.png",
+                            "uid": "Body_outdoor_facilities"
+                        },
+                        {
+                            "name": "Refreshments",
+                            "key": "refreshments",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/refreshments.png",
+                            "uid": "Body_refreshments"
+                        },
+                        {
+                            "name": "Certified",
+                            "key": "certified",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/certified.png",
+                            "uid": "Body_certified"
+                        },
+                        {
+                            "name": "Female only",
+                            "key": "female_only",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/female_only.png",
+                            "uid": "Body_female_only"
+                        },
+                        {
+                            "name": "Parking",
+                            "key": "parking",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/parking.png",
+                            "uid": "Body_parking"
+                        },
+                        {
+                            "name": "Valet Parking",
+                            "key": "valet_parking",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/valet_parking.png",
+                            "uid": "Body_valet_parking"
+                        }
+                    ],
+                    "section_order_id": 2,
+                    "category_id": 1
+                }
+            ]
+        },
+        {
+            "category_name": "Kids",
+            "category_id": 2,
+            "filter_sections": [
+                {
+                    "section_name": "Type",
+                    "selection_type": 1,
+                    "has_icons": false,
+                    "collapsible": false,
+                    "options": [
+                        {
+                            "name": "All",
+                            "key": "All",
+                            "uid": "0_Kids_All"
+                        }
+                    ],
+                    "section_order_id": 1,
+                    "category_id": 2
+                },
+                {
+                    "section_name": "Amenities Offered",
+                    "selection_type": 3,
+                    "has_icons": false,
+                    "collapsible": false,
+                    "options": [
+                        {
+                            "name": "Changing Facilities",
+                            "key": "changing_facilities",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/changing_facilities.png",
+                            "uid": "Kids_changing_facilities"
+                        },
+                        {
+                            "name": "Supervised Play Area",
+                            "key": "supervised_play_area",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/supervised_play_area.png",
+                            "uid": "Kids_supervised_play_area"
+                        }
+                    ],
+                    "section_order_id": 2,
+                    "category_id": 2
+                }
+            ]
+        },
+        {
+            "category_name": "Leisure",
+            "category_id": 3,
+            "filter_sections": [
+                {
+                    "section_name": "Type",
+                    "selection_type": 1,
+                    "has_icons": false,
+                    "collapsible": false,
+                    "options": [
+                        {
+                            "name": "All",
+                            "key": "All",
+                            "uid": "0_Leisure_All"
+                        },
+                        {
+                            "name": "Attractions",
+                            "key": "Attractions",
+                            "uid": "Leisure_Attractions"
+                        },
+                        {
+                            "name": "Cinema & Theatre",
+                            "key": "Cinema & Theatre",
+                            "uid": "Leisure_Cinema & Theatre"
+                        },
+                        {
+                            "name": "Creative Arts & Education",
+                            "key": "Creative Arts & Education",
+                            "uid": "Leisure_Creative Arts & Education"
+                        },
+                        {
+                            "name": "Culture & Heritage",
+                            "key": "Culture & Heritage",
+                            "uid": "Leisure_Culture & Heritage"
+                        },
+                        {
+                            "name": "Sports & Leisure",
+                            "key": "Sports & Leisure",
+                            "uid": "Leisure_Sports & Leisure"
+                        },
+                        {
+                            "name": "Live Events",
+                            "key": "Live Events",
+                            "uid": "Leisure_Live Events"
+                        }
+                    ],
+                    "section_order_id": 1,
+                    "category_id": 3
+                },
+                {
+                    "section_name": "Amenities Offered",
+                    "selection_type": 3,
+                    "has_icons": false,
+                    "collapsible": false,
+                    "options": [
+                        {
+                            "name": "Age Restrictions",
+                            "key": "age_restrictions",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/age_restrictions.png",
+                            "uid": "Leisure_age_restrictions"
+                        },
+                        {
+                            "name": "Height Restrictions",
+                            "key": "height_restrictions",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/height_restrictions.png",
+                            "uid": "Leisure_height_restrictions"
+                        },
+                        {
+                            "name": "Indoor Activities",
+                            "key": "indoor_activities",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/indoor_activities.png",
+                            "uid": "Leisure_indoor_activities"
+                        },
+                        {
+                            "name": "Kids Welcome",
+                            "key": "kids_welcome",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/kids_welcome.png",
+                            "uid": "Leisure_kids_welcome"
+                        },
+                        {
+                            "name": "Outdoor Activities",
+                            "key": "outdoor_activities",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/outdoor_activities.png",
+                            "uid": "Leisure_outdoor_activities"
+                        },
+                        {
+                            "name": "Parking",
+                            "key": "parking",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/parking.png",
+                            "uid": "Leisure_parking"
+                        },
+                        {
+                            "name": "Valet Parking",
+                            "key": "valet_parking",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/valet_parking.png",
+                            "uid": "Leisure_valet_parking"
+                        },
+                        {
+                            "name": "Alcohol",
+                            "key": "alcohol",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/alcohol.png",
+                            "uid": "Leisure_alcohol"
+                        },
+                        {
+                            "name": "Indoor Play Area",
+                            "key": "indoor_play_area",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/indoor_play_area.png",
+                            "uid": "Leisure_indoor_play_area"
+                        },
+                        {
+                            "name": "Live Entertainment",
+                            "key": "live_entertainment",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/live_entertainment.png",
+                            "uid": "Leisure_live_entertainment"
+                        },
+                        {
+                            "name": "Outdoor Cooling",
+                            "key": "outdoor_cooling",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/outdoor_cooling.png",
+                            "uid": "Leisure_outdoor_cooling"
+                        },
+                        {
+                            "name": "Outdoor Play Area",
+                            "key": "outdoor_play_area",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/outdoor_play_area.png",
+                            "uid": "Leisure_outdoor_play_area"
+                        },
+                        {
+                            "name": "Wineries",
+                            "key": "wineries",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/wineries.png",
+                            "uid": "Leisure_wineries"
+                        }
+                    ],
+                    "section_order_id": 2,
+                    "category_id": 3
+                }
+            ]
+        },
+        {
+            "category_name": "Restaurants and Bars",
+            "category_id": 4,
+            "filter_sections": [
+                {
+                    "section_name": "Type",
+                    "selection_type": 1,
+                    "has_icons": false,
+                    "collapsible": false,
+                    "options": [
+                        {
+                            "name": "All",
+                            "key": "All",
+                            "uid": "0_Restaurants and Bars_All"
+                        },
+                        {
+                            "name": "Cafés",
+                            "key": "Cafés",
+                            "uid": "Restaurants and Bars_Cafés"
+                        },
+                        {
+                            "name": "Casual Dining",
+                            "key": "Casual Dining",
+                            "uid": "Restaurants and Bars_Casual Dining"
+                        },
+                        {
+                            "name": "Pubs, Bars & Clubs",
+                            "key": "Pubs, Bars & Clubs",
+                            "uid": "Restaurants and Bars_Pubs, Bars & Clubs"
+                        },
+                        {
+                            "name": "Fine Dining",
+                            "key": "Fine Dining",
+                            "uid": "Restaurants and Bars_Fine Dining"
+                        },
+                        {
+                            "name": "Informal Dining & Takeaway",
+                            "key": "Informal Dining & Takeaway",
+                            "uid": "Restaurants and Bars_Informal Dining & Takeaway"
+                        }
+                    ],
+                    "section_order_id": 1,
+                    "category_id": 4
+                },
+                {
+                    "section_name": "Cuisine",
+                    "selection_type": 2,
+                    "has_icons": false,
+                    "collapsible": false,
+                    "options": [
+                        {
+                            "name": "American",
+                            "key": "American",
+                            "uid": "Restaurants and Bars_0_American"
+                        },
+                        {
+                            "name": "Arabic",
+                            "key": "Arabic",
+                            "uid": "Restaurants and Bars_1_Arabic"
+                        },
+                        {
+                            "name": "Chinese",
+                            "key": "Chinese",
+                            "uid": "Restaurants and Bars_2_Chinese"
+                        },
+                        {
+                            "name": "Indian",
+                            "key": "Indian",
+                            "uid": "Restaurants and Bars_3_Indian"
+                        },
+                        {
+                            "name": "Italian",
+                            "key": "Italian",
+                            "uid": "Restaurants and Bars_4_Italian"
+                        }
+                    ],
+                    "section_order_id": 2,
+                    "category_id": 4
+                },
+                {
+                    "section_name": "Amenities Offered",
+                    "selection_type": 3,
+                    "has_icons": false,
+                    "collapsible": false,
+                    "options": [
+                        {
+                            "name": "Alcohol",
+                            "key": "alcohol",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/alcohol.png",
+                            "uid": "Restaurants and Bars_alcohol"
+                        },
+                        {
+                            "name": "Buffet",
+                            "key": "buffet",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/buffet.png",
+                            "uid": "Restaurants and Bars_buffet"
+                        },
+                        {
+                            "name": "Halal",
+                            "key": "halal",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/halal.png",
+                            "uid": "Restaurants and Bars_halal"
+                        },
+                        {
+                            "name": "Kids Welcome",
+                            "key": "kids_welcome",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/kids_welcome.png",
+                            "uid": "Restaurants and Bars_kids_welcome"
+                        },
+                        {
+                            "name": "Live Entertainment",
+                            "key": "live_entertainment",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/live_entertainment.png",
+                            "uid": "Restaurants and Bars_live_entertainment"
+                        },
+                        {
+                            "name": "Outdoor Cooling",
+                            "key": "outdoor_cooling",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/outdoor_cooling.png",
+                            "uid": "Restaurants and Bars_outdoor_cooling"
+                        },
+                        {
+                            "name": "Outdoor Heating",
+                            "key": "outdoor_heating",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/outdoor_heating.png",
+                            "uid": "Restaurants and Bars_outdoor_heating"
+                        },
+                        {
+                            "name": "Outdoor Seating",
+                            "key": "outdoor_seating",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/outdoor_seating.png",
+                            "uid": "Restaurants and Bars_outdoor_seating"
+                        },
+                        {
+                            "name": "Parking",
+                            "key": "parking",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/parking.png",
+                            "uid": "Restaurants and Bars_parking"
+                        },
+                        {
+                            "name": "Pets Allowed",
+                            "key": "pets_allowed",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/pets_allowed.png",
+                            "uid": "Restaurants and Bars_pets_allowed"
+                        },
+                        {
+                            "name": "Pork Products",
+                            "key": "pork_products",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/pork_products.png",
+                            "uid": "Restaurants and Bars_pork_products"
+                        },
+                        {
+                            "name": "Smoking - Indoor",
+                            "key": "smoking_indoor",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/smoking_indoor.png",
+                            "uid": "Restaurants and Bars_smoking_indoor"
+                        },
+                        {
+                            "name": "Smoking - Shisha",
+                            "key": "smoking_shisha",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/smoking_shisha.png",
+                            "uid": "Restaurants and Bars_smoking_shisha"
+                        },
+                        {
+                            "name": "Sports Screens",
+                            "key": "sports_screens",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/sports_screens.png",
+                            "uid": "Restaurants and Bars_sports_screens"
+                        },
+                        {
+                            "name": "Supervised Play Area",
+                            "key": "supervised_play_area",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/supervised_play_area.png",
+                            "uid": "Restaurants and Bars_supervised_play_area"
+                        },
+                        {
+                            "name": "Takeaway",
+                            "key": "takeaway",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/takeaway.png",
+                            "uid": "Restaurants and Bars_takeaway"
+                        },
+                        {
+                            "name": "Valet Parking",
+                            "key": "valet_parking",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/valet_parking.png",
+                            "uid": "Restaurants and Bars_valet_parking"
+                        },
+                        {
+                            "name": "Wheelchair Accessible",
+                            "key": "wheelchair_accessible",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/wheelchair_accessible.png",
+                            "uid": "Restaurants and Bars_wheelchair_accessible"
+                        },
+                        {
+                            "name": "Wi-Fi",
+                            "key": "wi_fi",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/wi_fi.png",
+                            "uid": "Restaurants and Bars_wi_fi"
+                        },
+                        {
+                            "name": "Wineries",
+                            "key": "wineries",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/wineries.png",
+                            "uid": "Restaurants and Bars_wineries"
+                        },
+                        {
+                            "name": "Rooftop Bars",
+                            "key": "rooftop_bars",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/rooftop_bars.png",
+                            "uid": "Restaurants and Bars_rooftop_bars"
+                        }
+                    ],
+                    "section_order_id": 3,
+                    "category_id": 4
+                }
+            ]
+        },
+        {
+            "category_name": "Services",
+            "category_id": 5,
+            "filter_sections": [
+                {
+                    "section_name": "Type",
+                    "selection_type": 1,
+                    "has_icons": false,
+                    "collapsible": false,
+                    "options": [
+                        {
+                            "name": "All",
+                            "key": "All",
+                            "uid": "0_Services_All"
+                        },
+                        {
+                            "name": "Baby",
+                            "key": "Baby",
+                            "uid": "Services_Baby"
+                        },
+                        {
+                            "name": "Cleaning",
+                            "key": "Cleaning",
+                            "uid": "Services_Cleaning"
+                        },
+                        {
+                            "name": "Events",
+                            "key": "Events",
+                            "uid": "Services_Events"
+                        },
+                        {
+                            "name": "Maintenance",
+                            "key": "Maintenance",
+                            "uid": "Services_Maintenance"
+                        },
+                        {
+                            "name": "Office",
+                            "key": "Office",
+                            "uid": "Services_Office"
+                        },
+                        {
+                            "name": "Pets",
+                            "key": "Pets",
+                            "uid": "Services_Pets"
+                        },
+                        {
+                            "name": "Photography",
+                            "key": "Photography",
+                            "uid": "Services_Photography"
+                        },
+                        {
+                            "name": "Tailoring",
+                            "key": "Tailoring",
+                            "uid": "Services_Tailoring"
+                        },
+                        {
+                            "name": "Auto",
+                            "key": "Auto",
+                            "uid": "Services_Auto"
+                        },
+                        {
+                            "name": "Courses",
+                            "key": "Courses",
+                            "uid": "Services_Courses"
+                        }
+                    ],
+                    "section_order_id": 1,
+                    "category_id": 5
+                },
+                {
+                    "section_name": "Amenities Offered",
+                    "selection_type": 3,
+                    "has_icons": false,
+                    "collapsible": false,
+                    "options": [
+                        {
+                            "name": "By Appointment Only",
+                            "key": "by_appointment_only",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/by_appointment_only.png",
+                            "uid": "Services_by_appointment_only"
+                        },
+                        {
+                            "name": "Pick up/Drop off",
+                            "key": "pick_up_drop_off",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/pick_up_drop_off.png",
+                            "uid": "Services_pick_up_drop_off"
+                        }
+                    ],
+                    "section_order_id": 2,
+                    "category_id": 5
+                }
+            ]
+        },
+        {
+            "category_name": "Travel",
+            "category_id": 6,
+            "filter_sections": [
+                {
+                    "section_name": "Star Rating",
+                    "selection_type": 1,
+                    "has_icons": false,
+                    "collapsible": false,
+                    "options": [
+                        {
+                            "name": "All",
+                            "key": "All",
+                            "uid": "0_Travel_All"
+                        },
+                        {
+                            "name": "4 Star",
+                            "key": "4 Star",
+                            "uid": "Travel_4 Star"
+                        },
+                        {
+                            "name": "5 Star",
+                            "key": "5 Star",
+                            "uid": "Travel_5 Star"
+                        },
+                        {
+                            "name": "B&B / Lodge",
+                            "key": "B&B / Lodge",
+                            "uid": "Travel_B&B / Lodge"
+                        },
+                        {
+                            "name": "Hotel Apartments",
+                            "key": "Hotel Apartments",
+                            "uid": "Travel_Hotel Apartments"
+                        },
+                        {
+                            "name": "3 Star",
+                            "key": "3 Star",
+                            "uid": "Travel_3 Star"
+                        }
+                    ],
+                    "section_order_id": 1,
+                    "category_id": 6
+                },
+                {
+                    "section_name": "Hotel Type",
+                    "selection_type": 3,
+                    "has_icons": false,
+                    "collapsible": false,
+                    "options": [
+                        {
+                            "name": "Bed & Breakfast",
+                            "key": "bed_breakfast",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/bed_breakfast.png",
+                            "uid": "Travel_bed_breakfast"
+                        },
+                        {
+                            "name": "Boutique",
+                            "key": "boutique",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/boutique.png",
+                            "uid": "Travel_boutique"
+                        },
+                        {
+                            "name": "City Hotel",
+                            "key": "city",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/city.png",
+                            "uid": "Travel_city"
+                        },
+                        {
+                            "name": "Couples Only",
+                            "key": "couples_only",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/couples_only.png",
+                            "uid": "Travel_couples_only"
+                        },
+                        {
+                            "name": "Family",
+                            "key": "family",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/family.png",
+                            "uid": "Travel_family"
+                        },
+                        {
+                            "name": "Health Spa Resort",
+                            "key": "health_spa_resort",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/health_spa_resort.png",
+                            "uid": "Travel_health_spa_resort"
+                        },
+                        {
+                            "name": "Hotel Apartment",
+                            "key": "hotel_apartment",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/hotel_apartment.png",
+                            "uid": "Travel_hotel_apartment"
+                        },
+                        {
+                            "name": "Lodge - Safari",
+                            "key": "lodge_safari",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/lodge_safari.png",
+                            "uid": "Travel_lodge_safari"
+                        },
+                        {
+                            "name": "Lodge - Ski",
+                            "key": "lodge_ski",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/lodge_ski.png",
+                            "uid": "Travel_lodge_ski"
+                        },
+                        {
+                            "name": "Resort",
+                            "key": "resort",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/resort.png",
+                            "uid": "Travel_resort"
+                        }
+                    ],
+                    "section_order_id": 2,
+                    "category_id": 6
+                },
+                {
+                    "section_name": "Area / Location",
+                    "selection_type": 3,
+                    "has_icons": false,
+                    "collapsible": false,
+                    "options": [
+                        {
+                            "name": "Beach",
+                            "key": "beach",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/beach.png",
+                            "uid": "Travel_beach"
+                        },
+                        {
+                            "name": "Mountain/Country",
+                            "key": "mountain_country",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/mountain_country.png",
+                            "uid": "Travel_mountain_country"
+                        },
+                        {
+                            "name": "Seaside",
+                            "key": "seaside",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/seaside.png",
+                            "uid": "Travel_seaside"
+                        },
+                        {
+                            "name": "Shopping Mall",
+                            "key": "shopping_mall",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/shopping_mall.png",
+                            "uid": "Travel_shopping_mall"
+                        }
+                    ],
+                    "section_order_id": 3,
+                    "category_id": 6
+                },
+                {
+                    "section_name": "Hotel Facilities",
+                    "selection_type": 3,
+                    "has_icons": false,
+                    "collapsible": false,
+                    "options": [
+                        {
+                            "name": "24 Hour Reception",
+                            "key": "x24_hour_reception",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/x24_hour_reception.png",
+                            "uid": "Travel_x24_hour_reception"
+                        },
+                        {
+                            "name": "Alcohol",
+                            "key": "alcohol",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/alcohol.png",
+                            "uid": "Travel_alcohol"
+                        },
+                        {
+                            "name": "Beach Club",
+                            "key": "beach_club",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/beach_club.png",
+                            "uid": "Travel_beach_club"
+                        },
+                        {
+                            "name": "Beauty Centre",
+                            "key": "beauty_centre",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/beauty_centre.png",
+                            "uid": "Travel_beauty_centre"
+                        },
+                        {
+                            "name": "Car Park",
+                            "key": "car_park",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/car_park.png",
+                            "uid": "Travel_car_park"
+                        },
+                        {
+                            "name": "Club Lounge",
+                            "key": "club_lounge",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/club_lounge.png",
+                            "uid": "Travel_club_lounge"
+                        },
+                        {
+                            "name": "Concierge",
+                            "key": "concierge",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/concierge.png",
+                            "uid": "Travel_concierge"
+                        },
+                        {
+                            "name": "Day Spa",
+                            "key": "day_spa",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/day_spa.png",
+                            "uid": "Travel_day_spa"
+                        },
+                        {
+                            "name": "Golf",
+                            "key": "golf",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/golf.png",
+                            "uid": "Travel_golf"
+                        },
+                        {
+                            "name": "Gym/Fitness",
+                            "key": "gym_fitness",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/gym_fitness.png",
+                            "uid": "Travel_gym_fitness"
+                        },
+                        {
+                            "name": "Hair Salon",
+                            "key": "hair_salon",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/hair_salon.png",
+                            "uid": "Travel_hair_salon"
+                        },
+                        {
+                            "name": "Health Programmes",
+                            "key": "health_programmes",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/health_programmes.png",
+                            "uid": "Travel_health_programmes"
+                        },
+                        {
+                            "name": "Kids Club",
+                            "key": "kids_club",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/kids_club.png",
+                            "uid": "Travel_kids_club"
+                        },
+                        {
+                            "name": "Night Club",
+                            "key": "night_club",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/night_club.png",
+                            "uid": "Travel_night_club"
+                        },
+                        {
+                            "name": "Prayer Room",
+                            "key": "prayer_room",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/prayer_room.png",
+                            "uid": "Travel_prayer_room"
+                        },
+                        {
+                            "name": "Sports Club",
+                            "key": "sports_club",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/sports_club.png",
+                            "uid": "Travel_sports_club"
+                        },
+                        {
+                            "name": "Swimming Pool",
+                            "key": "swimming_pool",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/swimming_pool.png",
+                            "uid": "Travel_swimming_pool"
+                        },
+                        {
+                            "name": "Valet Parking",
+                            "key": "valet_parking",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/valet_parking.png",
+                            "uid": "Travel_valet_parking"
+                        },
+                        {
+                            "name": "Water Sports",
+                            "key": "water_sports",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/water_sports.png",
+                            "uid": "Travel_water_sports"
+                        },
+                        {
+                            "name": "Wheelchair Accessible",
+                            "key": "wheelchair_accessible",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/wheelchair_accessible.png",
+                            "uid": "Travel_wheelchair_accessible"
+                        },
+                        {
+                            "name": "Wi-Fi",
+                            "key": "wi_fi",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/wi_fi.png",
+                            "uid": "Travel_wi_fi"
+                        }
+                    ],
+                    "section_order_id": 4,
+                    "category_id": 6
+                },
+                {
+                    "section_name": "Hotel Rooms",
+                    "selection_type": 3,
+                    "has_icons": false,
+                    "collapsible": false,
+                    "options": [
+                        {
+                            "name": "24 Hour Room Service",
+                            "key": "x24_hour_room_service",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/x24_hour_room_service.png",
+                            "uid": "Travel_x24_hour_room_service"
+                        },
+                        {
+                            "name": "Air Conditioning",
+                            "key": "air_conditioning",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/air_conditioning.png",
+                            "uid": "Travel_air_conditioning"
+                        },
+                        {
+                            "name": "Balcony",
+                            "key": "balcony",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/balcony.png",
+                            "uid": "Travel_balcony"
+                        },
+                        {
+                            "name": "Heating",
+                            "key": "heating",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/heating.png",
+                            "uid": "Travel_heating"
+                        },
+                        {
+                            "name": "Inhouse Movies",
+                            "key": "inhouse_movies",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/inhouse_movies.png",
+                            "uid": "Travel_inhouse_movies"
+                        },
+                        {
+                            "name": "In-Room Spa bath",
+                            "key": "in_room_spa_bath",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/in_room_spa_bath.png",
+                            "uid": "Travel_in_room_spa_bath"
+                        },
+                        {
+                            "name": "Kitchen Facilities",
+                            "key": "kitchen_facilities",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/kitchen_facilities.png",
+                            "uid": "Travel_kitchen_facilities"
+                        },
+                        {
+                            "name": "Laundry Service",
+                            "key": "laundry_service",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/laundry_service.png",
+                            "uid": "Travel_laundry_service"
+                        },
+                        {
+                            "name": "Mini Bar",
+                            "key": "mini_bar",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/mini_bar.png",
+                            "uid": "Travel_mini_bar"
+                        },
+                        {
+                            "name": "Plunge Pool",
+                            "key": "plunge_pool",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/plunge_pool.png",
+                            "uid": "Travel_plunge_pool"
+                        },
+                        {
+                            "name": "Safe Deposit Box",
+                            "key": "safe_deposit_box",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/safe_deposit_box.png",
+                            "uid": "Travel_safe_deposit_box"
+                        },
+                        {
+                            "name": "Smoking Rooms",
+                            "key": "smoking_rooms",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/smoking_rooms.png",
+                            "uid": "Travel_smoking_rooms"
+                        },
+                        {
+                            "name": "Sound System",
+                            "key": "sound_system",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/sound_system.png",
+                            "uid": "Travel_sound_system"
+                        },
+                        {
+                            "name": "TV in room",
+                            "key": "tv_in_room",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/tv_in_room.png",
+                            "uid": "Travel_tv_in_room"
+                        },
+                        {
+                            "name": "Villas",
+                            "key": "villas",
+                            "image_url": "https://s3-us-west-2.amazonaws.com/merchhant-attribute-icons/villas.png",
+                            "uid": "Travel_villas"
+                        }
+                    ],
+                    "section_order_id": 5,
+                    "category_id": 6
+                }
+            ]
+        },
+        {
+            "category_name": "Retail",
+            "category_id": 7,
+            "filter_sections": [
+                {
+                    "section_name": "Type",
+                    "selection_type": 1,
+                    "has_icons": false,
+                    "collapsible": false,
+                    "options": [
+                        {
+                            "name": "All",
+                            "key": "All",
+                            "uid": "0_Retail_All"
+                        },
+                        {
+                            "name": "Health & Beauty",
+                            "key": "Health & Beauty",
+                            "uid": "Retail_Health & Beauty"
+                        },
+                        {
+                            "name": "Confectionery",
+                            "key": "Confectionary",
+                            "uid": "Retail_Confectionary"
+                        },
+                        {
+                            "name": "Electronics",
+                            "key": "Electronics",
+                            "uid": "Retail_Electronics"
+                        },
+                        {
+                            "name": "Fashion",
+                            "key": "Fashion",
+                            "uid": "Retail_Fashion"
+                        },
+                        {
+                            "name": "Home & Garden",
+                            "key": "Home & Garden",
+                            "uid": "Retail_Home & Garden"
+                        },
+                        {
+                            "name": "Grocery & Off-Licence",
+                            "key": "Grocery & Off-Licence",
+                            "uid": "Retail_Grocery & Off-Licence"
+                        },
+                        {
+                            "name": "Jewellery",
+                            "key": "Jewellery",
+                            "uid": "Retail_Jewellery"
+                        },
+                        {
+                            "name": "Opticians",
+                            "key": "Opticians",
+                            "uid": "Retail_Opticians"
+                        },
+                        {
+                            "name": "Sporting Goods",
+                            "key": "Sporting Goods",
+                            "uid": "Retail_Sporting Goods"
+                        },
+                        {
+                            "name": "Pets",
+                            "key": "Pets",
+                            "uid": "Retail_Pets"
+                        },
+                        {
+                            "name": "Baby & Child",
+                            "key": "Baby & Child",
+                            "uid": "Retail_Baby & Child"
+                        }
+                    ],
+                    "section_order_id": 1,
+                    "category_id": 7
+                }
+            ]
+        },
+        {
+            "category_name": "Limited",
+            "category_id": 8,
+            "filter_sections": [
+                {
+                    "section_name": "Type",
+                    "selection_type": 1,
+                    "has_icons": false,
+                    "collapsible": false,
+                    "options": [
+                        {
+                            "name": "All",
+                            "key": "All",
+                            "uid": "0_Limited_All"
+                        }
+                    ],
+                    "section_order_id": 1,
+                    "category_id": 8
+                }
+            ]
+        }
+    ]
+}

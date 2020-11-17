@@ -1,0 +1,8 @@
+{
+    "success": true,
+    "data": [],
+    "message": "success",
+    "code": 0,
+    "http_response": 200,
+    "cmd": "/api_ets/v2/user/profile?nationality=Dubai"
+}

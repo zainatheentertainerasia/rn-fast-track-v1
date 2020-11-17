@@ -10,7 +10,8 @@
     "web": "expo start --web",
     "postinstall": "patch-package && ./src/utils/patch/index.js && jetify",
     "androidBuild": "cd android && ./gradlew assemble && cd ..",
-    "iosBuild": "rm -rf ios/chalhoub/Supporting/shell-app.bundle && rm -rf ios/chalhoub/Supporting/shell-app-manifest.json && expo publish"
+    "iosBuild": "rm -rf ios/chalhoub/Supporting/shell-app.bundle && rm -rf ios/chalhoub/Supporting/shell-app-manifest.json && expo publish",
+    "build:ios": "react-native bundle --entry-file='index.js' --bundle-output='./ios/ftrntemplate/main.jsbundle' --dev=false --platform='ios' --assets-dest='./ios'"
   },
   "dependencies": {
     "@callstack/async-storage": "^2.0.3",

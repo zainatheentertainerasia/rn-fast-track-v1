@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "778701237376",
+    "firebase_url": "https://entertainer-x-circles-life.firebaseio.com",
+    "project_id": "entertainer-x-circles-life",
+    "storage_bucket": "entertainer-x-circles-life.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778701237376:android:83e909f959422dc0",
+        "android_client_info": {
+          "package_name": "com.theentertainerme.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778701237376-okagirqu1u0rh58knbpsjroiqbkari04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6OxHjG4HRX1l-rU7ZZYtdjYBcCFwI91M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778701237376-okagirqu1u0rh58knbpsjroiqbkari04.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778701237376-87b8fvq5chm0co08mfn8kqd89ktguj4l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.theentertainerme.cle"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

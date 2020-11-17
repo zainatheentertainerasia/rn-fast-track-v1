@@ -1,0 +1,25 @@
+{
+    "http_response": 200,
+    "message": "success",
+    "success": true,
+    "cmd": "/et_rs_prd/p/wl/v1/sessions?app_version=1.0&__platform=ios&email=(User-Email)&password=(User-Password)&device_model=iPhone%206S",
+    "code": 0,
+    "data": {
+      "pop_up_screen_upon_successful_activation": "",
+      "device_uid": null,
+      "user_group_logo": "",
+      "user_id": "User-ID",
+      "is_demographics_updated": 0,
+      "session_token": "Session-Token",
+      "device_os": "ios",
+      "user_group_code": "",
+      "device_model": "iPhone 6S",
+      "currency": "QAR",
+      "message": "",
+      "device_install_token": null,
+      "new_user": false,
+      "user_group": 0,
+      "number_of_offers": 0,
+      "member_type": 3
+    }
+  }

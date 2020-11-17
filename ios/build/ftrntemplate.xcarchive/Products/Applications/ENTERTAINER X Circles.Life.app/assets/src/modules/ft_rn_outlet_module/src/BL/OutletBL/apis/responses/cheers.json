@@ -1,0 +1,28 @@
+{
+    "success": true,
+    "http_response": 200,
+    "cmd": "/api_ets/v2/configs/cheers?location_id=2",
+    "message": "success",
+    "data": {
+        "cheers_rules": [
+            {
+                "date_today": "2020/01/17",
+                "drinking_age_confirmation_message": "I confirm I am of legal drinking age in the GCC & non-Muslim",
+                "api_name": "Body",
+                "age_restriction_message": "Sorry, you must be 21 years or over and non-Muslim to access this product",
+                "id": 245,
+                "category": "Food & Drink",
+                "location_id": 1,
+                "product_id": 8149,
+                "consent_confirmation_message": "I confirm I am of legal drinking age &\n       non - Muslim\n\nDD/MM/YYYY is my date of birth",
+                "cheers_logo_url": "https://s3.amazonaws.com/entertainer-app-assets/cheers-logo_inter.png",
+                "redemption_confirm_message": "Confirm your 4-digit PIN, and that you are of legal drinking age and non-Muslim",
+                "product_sku": "L19DBCHSC",
+                "not_interested_in_cheers_offers_message": "I do not want Cheers, but thanks anyways",
+                "error_message_to_select_an_option": "Please select an option to continue",
+                "category_id": 1
+            }
+        ]
+    },
+    "code": 0
+}

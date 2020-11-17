@@ -1,0 +1,9 @@
+{
+	"basePath": "http://127.0.0.1:9011",
+	"mode": "real",
+	"enviroments": [
+		"dev",
+		"production",
+		"stage"
+	]
+}

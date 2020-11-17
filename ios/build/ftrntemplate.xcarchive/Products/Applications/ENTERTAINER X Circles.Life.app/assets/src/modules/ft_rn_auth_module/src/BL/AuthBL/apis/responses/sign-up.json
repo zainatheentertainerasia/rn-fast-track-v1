@@ -1,0 +1,29 @@
+{
+    "http_response": 200,
+    "message": "success",
+    "success": true,
+    "data": {
+      "user_group_code": "",
+      "message": "",
+      "user_group_logo": "",
+      "session_token": "11cdd792-3e2f-449f-a5f8-f0dbafc5d00b",
+      "device_model": null,
+      "pop_up_screen_upon_successful_activation": "",
+      "currency": "QAR",
+      "user_already_exist": false,
+      "user_id": 6747788,
+      "number_of_offers": 0,
+      "user_already_exist_message": "",
+      "device_uid": null,
+      "validation_params": {
+        "session_token": "11cdd792-3e2f-449f-a5f8-f0dbafc5d00b",
+        "__sid": 20172100,
+        "__i": 6747788
+      },
+      "user_group": 1,
+      "device_os": null,
+      "is_demographics_updated": 0
+    },
+    "code": 0,
+    "cmd": "/et_rs_prd/p/wl/v1/users?app_version=1.0&__platform=ios&email=(validated-email)&password=(password)&confirm_password=(password)&terms_acceptance=1&language=en"
+  }
