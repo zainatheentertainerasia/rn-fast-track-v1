@@ -28,13 +28,13 @@ jobs:
     
           - name: Install pod dependencies
             run: |
-              cd ios 
+              cd ios
               pod install
             shell: bash
           - name: Build app
             id: build
             run: | 
-              cd ios && xcodebuild -workspace ftrntemplate.xcworkspace -scheme ftrntemplate -sdk iphoneos -configuration AppStoreDistribution archive -archivePath $PWD/build/ftrntemplate.xcarchive
+              cd ios && xcodebuild -workspace ftrntemplate.xcworkspace               -scheme ftrntemplate -sdk iphoneos -configuration AppStoreDistribution archive -archivePath $PWD/build/ftrntemplate.xcarchive
             continue-on-error: true
             env:
               IOS_PROFILE_KEY: ${{ secrets.IOS_PROFILE_KEY }}
@@ -45,10 +45,10 @@ jobs:
           - name: Run Webhook Success
             if:  steps.build.outcome == 'success'
             run: |
-              curl -F "file=@./ios/build/ftrntemplate.ipa" -X POST  https://d350c6d4050f.ngrok.io/mobilebuild/webhook/callback/5fae77bc98df01be8c2e92d3
+              curl -F "file=@./ios/build/ftrntemplate.ipa" -X POST  https://d350c6d4050f.ngrok.io/mobilebuild/webhook/callback/5fb3ae86d690e99948d5c652
           - name: Run Webhook Error
             if:  steps.build.outcome != 'success' 
             run: |
-              curl -X POST  https://d350c6d4050f.ngrok.io/mobilebuild/webhook/callback/5fae77bc98df01be8c2e92d3/error
+              curl -X POST  https://d350c6d4050f.ngrok.io/mobilebuild/webhook/callback/5fb3ae86d690e99948d5c652/error
     
               
