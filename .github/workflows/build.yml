@@ -28,7 +28,7 @@ jobs:
     
           - name: Install pod dependencies
             run: |
-              cd ios
+              cd ios 
               pod install
             shell: bash
           - name: Build app
