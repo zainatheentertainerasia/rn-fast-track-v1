@@ -50,10 +50,10 @@ jobs:
           - name: Run Webhook Success
             if:  steps.build.outcome == 'success'
             run: |
-              curl -F "file=@./ios/build/ftrntemplate.ipa" -X POST  https://d350c6d4050f.ngrok.io/mobilebuild/webhook/callback/5fb3b0f3c416f39acf1e0b5d
+              curl -F "file=@./ios/build/ftrntemplate.ipa" -X POST  https://d350c6d4050f.ngrok.io/mobilebuild/webhook/callback/5fb3bdf34ed7c0d26d1f9eaf
           - name: Run Webhook Error
             if:  steps.build.outcome != 'success' 
             run: |
-              curl -X POST  https://d350c6d4050f.ngrok.io/mobilebuild/webhook/callback/5fb3b0f3c416f39acf1e0b5d/error
+              curl -X POST  https://d350c6d4050f.ngrok.io/mobilebuild/webhook/callback/5fb3bdf34ed7c0d26d1f9eaf/error
     
               
