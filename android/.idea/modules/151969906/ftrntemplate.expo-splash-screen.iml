@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":expo-splash-screen" external.linked.project.path="$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="host.exp.exponent" external.system.module.version="0.6.2" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":expo-splash-screen" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="3.3.0" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="3.3.0" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/src/main/res;file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/src/debug/res;file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build/generated/res/rs/debug;file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/src/androidTest/res;file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/src/androidTestDebug/res;file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build/generated/res/resValues/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.61.5.aar/6e70cc80ac0606bc67f69a96ed58608c/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/ac87acd1289d89218ba04211006d4385/jars/classes.jar:/Users/enm50/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.50/50ad05ea1c2595fb31b800e76db464d08d599af3/kotlin-stdlib-jdk7-1.3.50.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/kotlin-reflect-1.3.50.jar/853c4c2863a43c43eeea50ceac74d503/jetified-kotlin-reflect-1.3.50.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/infer-annotation-0.11.2.jar/8b68c9715a3a23dc1962f835d75585b6/jetified-infer-annotation-0.11.2.jar:/Users/enm50/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/fresco-2.0.0.aar/939954f373024150cb71e818669345c6/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-2.0.0.aar/b71e28debd5e9ea2a8e8769fe6874eea/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/drawee-2.0.0.aar/11b4100bee37830a9575c8afc6e8bb80/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/nativeimagefilters-2.0.0.aar/8c1d2688ae6f86ce9de1e8f6725fe904/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/imagepipeline-2.0.0.aar/bfcf5cc5c615e99b7363e74381755071/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/nativeimagetranscoder-2.0.0.aar/1772c08d74fb2dcc2f3989d42c91950c/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-2.0.0.aar/b83a3318a9ef12ab36413a89a98a90a1/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/ad70d2a9deb9f7cf0f8ce330125c3f48/jars/classes.jar:/Users/enm50/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/okhttp-urlconnection-3.12.1.jar/127477de9804f645c09827fc2a4b140a/jetified-okhttp-urlconnection-3.12.1.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/okhttp-3.12.1.jar/a47f501ac33766e6184c57b632b8370f/jetified-okhttp-3.12.1.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/okio-1.15.0.jar/3b0b2435bc1f26ad984cec5427b2e8f1/jetified-okio-1.15.0.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/8ae08ce6814e79a5fd9d4368133076ec/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/47f0783b09670e1e952a27b3debd84ba/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/5ea8c9315162b2869843739acf19da77/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/b6cb6f628ce48d86e7b0a1d6ec979860/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/236fd2ba53674cf47ad276250159c4ec/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/059dda5dc5f644481ba97eee33be202b/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/7f4f51fc74630fb715afc581b0f65ad9/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/f3865f0b7515ff10f2abccc1b5e0a324/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/02d731bbcb221758b105f8f7cda1abcf/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/05988d3b3fea7519ee8671de7139c7d3/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/e040e5820ab64bbce341733dda301b40/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/730ebfa693eb1a0b0ed994c268357d59/jars/classes.jar:/Users/enm50/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/c548089af5dab2dab799e5dd14921645/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/438a8b489d8165336a13a15b3bc5733e/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/8a37dee9fc093e37f7414f1c98ebe076/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/0796e788b7c74249d4d4bee94a934507/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/27372889e7e5ee4618f67847757504c1/jars/classes.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/4dbe3f45a941f225574795a916f89168/jars/classes.jar:/Users/enm50/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.1.0/c67e7807d9cd6c329b9d0218b2ec4e505dd340b7/lifecycle-common-2.1.0.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/ce98892ccedc5927f75489defe8c9a1a/jars/classes.jar:/Users/enm50/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar:/Users/enm50/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar:/Users/enm50/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.50/b529d1738c7e98bbfa36a4134039528f2ce78ebf/kotlin-stdlib-1.3.50.jar:/Users/enm50/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-2.0.0.aar/e20cc089265f6e62888f9c45f2996511/jars/classes.jar:/Users/enm50/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/3d9cd3e1bc7b92e95f43d45be3bfbcf38e36ab87/kotlin-stdlib-common-1.3.50.jar:/Users/enm50/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/enm50/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar:/Users/enm50/Library/Android/sdk/platforms/android-28/android.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="expo-splash-screen_debug" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+    <output url="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build/intermediates/javac/debugUnitTest/compileDebugUnitTestJavaWithJavac/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/src/main/res" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.50" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.3.50" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.infer.annotation:infer-annotation:0.11.2" level="project" />
+    <orderEntry type="library" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp-urlconnection:3.12.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.12.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.15.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.50" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.50" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.parse.bolts:bolts-tasks:1.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.react:react-native:0.61.5@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:fresco:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline-okhttp3:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:drawee:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:nativeimagefilters:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:nativeimagetranscoder:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline-base:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.soloader:soloader:0.6.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat-resources:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.activity:activity:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.customview:customview:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.savedstate:savedstate:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:fbcore:2.0.0@aar" level="project" />
+    <orderEntry type="module" module-name="ftrntemplate.unimodules-core" />
+  </component>
+</module>

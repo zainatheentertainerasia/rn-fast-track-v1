@@ -2,7 +2,50 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ftrntemplate.iml" filepath="$PROJECT_DIR$/.idea/modules/ftrntemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ftrntemplate.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ftrntemplate.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-471004257/ftrntemplate.expo-app-loader-provider.iml" filepath="$PROJECT_DIR$/.idea/modules/-471004257/ftrntemplate.expo-app-loader-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-926296529/ftrntemplate.expo-constants.iml" filepath="$PROJECT_DIR$/.idea/modules/-926296529/ftrntemplate.expo-constants.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2144396490/ftrntemplate.expo-device.iml" filepath="$PROJECT_DIR$/.idea/modules/-2144396490/ftrntemplate.expo-device.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2060070246/ftrntemplate.expo-error-recovery.iml" filepath="$PROJECT_DIR$/.idea/modules/-2060070246/ftrntemplate.expo-error-recovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1699657856/ftrntemplate.expo-file-system.iml" filepath="$PROJECT_DIR$/.idea/modules/-1699657856/ftrntemplate.expo-file-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-460267473/ftrntemplate.expo-font.iml" filepath="$PROJECT_DIR$/.idea/modules/-460267473/ftrntemplate.expo-font.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1006250468/ftrntemplate.expo-image-manipulator.iml" filepath="$PROJECT_DIR$/.idea/modules/-1006250468/ftrntemplate.expo-image-manipulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1729925088/ftrntemplate.expo-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-1729925088/ftrntemplate.expo-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1590581475/ftrntemplate.expo-keep-awake.iml" filepath="$PROJECT_DIR$/.idea/modules/-1590581475/ftrntemplate.expo-keep-awake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-915771208/ftrntemplate.expo-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-915771208/ftrntemplate.expo-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1139724167/ftrntemplate.expo-localization.iml" filepath="$PROJECT_DIR$/.idea/modules/-1139724167/ftrntemplate.expo-localization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1038750315/ftrntemplate.expo-location.iml" filepath="$PROJECT_DIR$/.idea/modules/-1038750315/ftrntemplate.expo-location.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-298738273/ftrntemplate.expo-permissions.iml" filepath="$PROJECT_DIR$/.idea/modules/-298738273/ftrntemplate.expo-permissions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/151969906/ftrntemplate.expo-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/151969906/ftrntemplate.expo-splash-screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-700299540/ftrntemplate.expo-sqlite.iml" filepath="$PROJECT_DIR$/.idea/modules/-700299540/ftrntemplate.expo-sqlite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1999107441/ftrntemplate.expo-web-browser.iml" filepath="$PROJECT_DIR$/.idea/modules/-1999107441/ftrntemplate.expo-web-browser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1286502331/ftrntemplate.react-native-appboy-sdk.iml" filepath="$PROJECT_DIR$/.idea/modules/-1286502331/ftrntemplate.react-native-appboy-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1456559377/ftrntemplate.react-native-branch.iml" filepath="$PROJECT_DIR$/.idea/modules/-1456559377/ftrntemplate.react-native-branch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1457676272/ftrntemplate.react-native-community_blur.iml" filepath="$PROJECT_DIR$/.idea/modules/1457676272/ftrntemplate.react-native-community_blur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/183863826/ftrntemplate.react-native-community_datetimepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/183863826/ftrntemplate.react-native-community_datetimepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1180011454/ftrntemplate.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/1180011454/ftrntemplate.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1579718513/ftrntemplate.react-native-config.iml" filepath="$PROJECT_DIR$/.idea/modules/-1579718513/ftrntemplate.react-native-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-952015784/ftrntemplate.react-native-device-info.iml" filepath="$PROJECT_DIR$/.idea/modules/-952015784/ftrntemplate.react-native-device-info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1377774887/ftrntemplate.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-1377774887/ftrntemplate.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/810452506/ftrntemplate.react-native-maps.iml" filepath="$PROJECT_DIR$/.idea/modules/810452506/ftrntemplate.react-native-maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-629168221/ftrntemplate.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-629168221/ftrntemplate.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-540370686/ftrntemplate.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-540370686/ftrntemplate.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/637465498/ftrntemplate.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/637465498/ftrntemplate.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1732704009/ftrntemplate.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-1732704009/ftrntemplate.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-103591924/ftrntemplate.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/-103591924/ftrntemplate.react-native-webview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1469771810/ftrntemplate.unimodules-barcode-scanner-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1469771810/ftrntemplate.unimodules-barcode-scanner-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-653714516/ftrntemplate.unimodules-camera-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-653714516/ftrntemplate.unimodules-camera-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/995111936/ftrntemplate.unimodules-constants-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/995111936/ftrntemplate.unimodules-constants-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1559620370/ftrntemplate.unimodules-core.iml" filepath="$PROJECT_DIR$/.idea/modules/1559620370/ftrntemplate.unimodules-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1226144167/ftrntemplate.unimodules-face-detector-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1226144167/ftrntemplate.unimodules-face-detector-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1289899729/ftrntemplate.unimodules-file-system-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1289899729/ftrntemplate.unimodules-file-system-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-324394730/ftrntemplate.unimodules-font-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-324394730/ftrntemplate.unimodules-font-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/52509964/ftrntemplate.unimodules-image-loader-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/52509964/ftrntemplate.unimodules-image-loader-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1108299445/ftrntemplate.unimodules-permissions-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1108299445/ftrntemplate.unimodules-permissions-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1950891238/ftrntemplate.unimodules-react-native-adapter.iml" filepath="$PROJECT_DIR$/.idea/modules/-1950891238/ftrntemplate.unimodules-react-native-adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/355288426/ftrntemplate.unimodules-sensors-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/355288426/ftrntemplate.unimodules-sensors-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1697258580/ftrntemplate.unimodules-task-manager-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1697258580/ftrntemplate.unimodules-task-manager-interface.iml" />
     </modules>
   </component>
 </project>

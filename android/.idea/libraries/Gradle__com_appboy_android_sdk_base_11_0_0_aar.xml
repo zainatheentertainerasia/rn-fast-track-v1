@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.appboy:android-sdk-base:11.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-android-sdk-base-11.0.0.aar/5b53546875282132bf69688bbeff741c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-android-sdk-base-11.0.0.aar/5b53546875282132bf69688bbeff741c/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-android-sdk-base-11.0.0.aar/5b53546875282132bf69688bbeff741c/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.appboy/android-sdk-base/11.0.0/cb7afe38a03275deb182eb5861823f810c5842cb/android-sdk-base-11.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
